@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</head>
+<style>
+   
+   body{
+    background-color: rgb(233, 228, 214);
+   }
+
+</style>
+<body>
+    <div class="container">
+        <h1 class="text-center mt-4"><u>Comparación de OSI y TPC/IP</u></h1>
+        <div class="row">
+            <div class="row mt-5">
+      <h2 class="row"><span style="font-family:Verdana, Geneva, Tahoma, sans-serif;">El modelo OSI</span></h2>
+        <div class="col-12 p-3 bg-warning-subtle border border dark text-center">OSI</div>
+            <div>
+            <div class="row ">
+                <div class="col-6 p-2 bg-warning-subtle  border border dark">Concepto:</div>
+                <div class="col-6 p-2 bg-warning-subtle  border border dark"> Es un modelo estandarizado para el diseño de sistemas
+                    de red que basa su funcionamiento en niveles o capas.</div>
+            
+                <div class="col-6 p-2 bg-warning-subtle  border border dark">Conexion:</div>
+                <div class="col-6 p-2 bg-warning-subtle  border border dark"> Gracias al modelo, es posible la conexión de sistemas abiertas, aunque tengan arquitecturas diferentes.</div>
+      </div>          
+   
+  <div class="row mt-5">
+  <div class="container">
+        <h2><span style="font-family:Verdana, Geneva, Tahoma, sans-serif;">Capas del modelo OSI</span></h2>
+    
+   <div class="co">
+    <div class="col-6 p-2 bg-warning-subtle  border border dark"><button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+      1. Aplicacion
+    </button> 
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="static">Aplicacion</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Esta directamente relacionada con el usuario. Incluye protocolos
+             que utilizan las aplicaciones para el intercambio de datos.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+   
+
+   <div>
+    <div class="col-6 p-2 bg-warning-subtle  border border dark"><button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#static1">
+     2. Presentacion
+    </button>
+
+    <div class="modal fade" id="static1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="static1" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="static1">Presentacion</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+          Su objetivo principal es realizar funciones de conversion y codificacion de los datos 
+          para asegurar que los datos tranferidos desde la capa sesion puedean ser leidos
+          y entendidos por el sistema de la capa de aplicacion.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+   
+
+   <div>
+    <div class="col-6 p-2 bg-warning-subtle   border border dark"><button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#static2">
+      3. Sesion
+    </button>
+    
+    <div class="modal fade" id="static2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="static2" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="static2">Sesion</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+          Facilita acceso a servicios y conexiones. Un ejemplo de esta capa es la conexion entre un servidor y un cliente
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div>
+    <div class="col-6 p-2 bg-warning-subtle  border border dark"><button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#static3">
+     4. Transporte
+    </button>
+    
+    <div class="modal fade" id="static3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="static3" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="static3">Transporte</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+          Se encarga de realizar una comunicacion segura y confiable desde el origen hasta el destino. Para ello, utiliza
+          controles de flujo y errores que eviten perdidas de datos y garanticen la velocidad.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+
+   <div>
+    <div class="col-6 p-2 bg-warning-subtle  border border dark"><button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#static4">
+     5. Red
+    </button>
+    
+    <div class="modal fade" id="static4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="static4" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="static4">Red</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Determina la mejor ruta de destino a traves del uso de tablas de enrutamiento. Algunos protocolos usados
+            son IP, IGRP o RIP.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  
+
+ <div>
+    <div class="col-6 p-2 bg-warning-subtle  border border dark"><button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#static5">
+      6. Enlace de datos
+    </button>
+    
+    <div class="modal fade" id="static5" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="static5" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="static5">Enlace de datos</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Su funcion principal es garantizar la transmision entre dos dispositivos a traves de un enlace.
+            Tambien detecta y soluciona errores que puedan surgir en una comunicacion.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+ </div>
+
+  <div>
+    <div class="col-6 p-2 bg-warning-subtle  border border dark"><button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#static6">
+     7. Fisica
+    </button>
+    
+    <div class="modal fade" id="static6" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="static6" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="static6">Fisica</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+           Se trata de los medios fisicos que realizan las transimisiones de datos (bits) en las comunicaciones 
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+   </div>
+ </div>
+   </div>
+    </div>
+    
+    <div class="row">
+      <div class="row mt-5">
+<h2 class="row"><span style="font-family:Verdana, Geneva, Tahoma, sans-serif;">Direccionamiento IP</span></h2>
+  <div class="col-12 p-3 bg-warning-subtle border border dark text-center">TCP/IP</div>
+
+      <div>
+      <div class="row ">
+          <div class="col-6 p-2 bg-warning-subtle  border border dark">Concepto TCP:</div>
+          <div class="col-6 p-2 bg-warning-subtle  border border dark"> Protocolo de control de Transmisión que realiza una conexión segura entre dos hosts
+            de la red. Se encarga de realizar el control de flujo y gestionar los acuses del recibo del intercambio de paquetes.
+          </div>
+      
+          <div class="col-6 p-2 bg-warning-subtle  border border dark">Concepto IP:</div>
+          <div class="col-6 p-2 bg-warning-subtle  border border dark">Protocolo de Internet que identifica el origen y destino de los paquetes que son enviados a la red.</div>
+      
+</div>
+
+<div class="row mt-5"></div>
+  <h2><span style="font-family:Verdana, Geneva, Tahoma, sans-serif;">Capas del protocolo TCP/IP</span></h2>
+  <div>
+  <div class="col-6 p-2 bg-warning-subtle  border border dark"><button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#static8">
+    1. Aplicacion
+  </button> 
+  <div class="modal fade" id="static8" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="static8" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="static8">Aplicacion</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+         Implementa funcionalidades que permiten la representación de datos para el ususario a través de sistemas de codifcación y control del dialógo.
+         Algunos protocolos son Telnet, DNS, SMTP o FTP.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
+</div>
+
+ <div>
+  <div class="col-6 p-2 bg-warning-subtle  border border dark"><button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#static9">
+    2. Transporte
+  </button>
+  
+  <div class="modal fade" id="static9" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="static9" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="static9">Transporte</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Establece una conversación entre el origen y el destino. Para ello, utiliza técnicas de correción de errores, control de flujo y confiabilidad.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+ <div>
+  <div class="col-6 p-2 bg-warning-subtle  border border dark"><button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#static10">
+    3. Interntet 
+  </button> 
+  <div class="modal fade" id="static10" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="static10" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="static10">Internet</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+        Puede considerarse la capa mas importante de la arquitectura TCP/IP. Permite que los dispositivos de la red puedan enviar paquetes y estos
+        sean transmitidos a través de la red de forma independiente. 
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
+
+ <div>
+   <div class="col-6 p-2 bg-warning-subtle border border dark"><button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#static11">
+     4. Acceso a la red
+  </button> 
+  <div class="modal fade" id="static11" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="static11" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="static11">Acceso a la red</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+       Administra los dispositivos de hardware y medios que forman parte de la red a través de una tecnología. La tecnología mas utilizada es 
+       Ethernet, la cual emplea redes de área local (LAN) y redes de área local inalámbricos (WLAN). 
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
+</body>
+</html>
